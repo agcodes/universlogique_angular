@@ -1,0 +1,9 @@
+<h1>Moon Drawing</h1>
+<p>test</p>
+<app-canvas-drawing
+  [componentID]="'moon-drawing'"
+  [modelID]="'moon-model'"
+  [triggerCanvas]="triggerCanvas"
+  (actionFromCanvas)="handleCanvasAction($event)"
+>
+</app-canvas-drawing>
