@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
-import { MoonDrawingComponent } from './moon-drawing/moon-drawing.component';
+import { MoonDrawing } from './moon-drawing/moon-drawing';
 
 export const DRAWINGS_ROUTES: Routes = [
   { path: '', redirectTo: 'moon', pathMatch: 'full' },
-  { path: 'moon', component: MoonDrawingComponent },
+  { path: 'moon', component: MoonDrawing },
 ];
